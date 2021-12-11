@@ -1,0 +1,171 @@
+body{
+    background: rgb(235, 216, 235);
+}
+
+.texto{
+    margin-top: 13.4rem;
+    margin-block-end: 13.4rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    align-items: center;
+    border-width:0.1cm ;
+    border-style:outset ;
+    border-color: purple;
+    
+}
+.escrita{
+    margin: 1rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+/* inicio cabecalho*/
+.header{
+    width: 100%;
+    background-color: #563d7c;
+}
+
+#menu-icon{
+    font-size: 30px;
+    margin-right: 5px;
+    color: #26c6da;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 30px;
+}
+
+.register-icon{
+    margin-right: 5px;
+    color: #26c6da;
+}
+
+.navbar{
+    background-color: #563d7c;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.btn-primary{
+    background-color: #000040;
+    color: white;
+    border-color: #000040;
+}
+
+.btn-primary:hover{
+    background-color: #7955af;
+}
+
+.btn-login{
+    margin-left: 5px;
+    width: 110px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-register{
+    margin-left: 5px;
+    width: 110px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-search{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.btn-search:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+@media screen and (max-width: 600px){
+    #search, #btn-search{
+        display: none;
+    }
+}
+/*fim cabecalho*/
+
+/*rodape*/
+
+#rodape button {
+    border-radius: 20px;
+    
+}
+   
+#rodape div.rodape { 
+    text-align: center;
+    background-color: #563d7c;
+       
+}
+   
+#rodape div.rodape-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-decoration: none;
+    box-shadow: white 0px 5px 1px 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;      
+}
+   
+#rodape a {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    align-content: center;
+    padding-right:150px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+   
+.textoRodape{
+    color: #01006b;
+    padding-left: 10%;
+    
+}
+
+.botao{
+    color: white;
+    
+}
+
+.DireitosReservados{
+    color: white;
+    margin-bottom: 0rem !important;
+    
+}
+
+#rodape div.rodape-links ul>a.textoRodape{
+    margin-left: 30px;
+}
+
+.textoPatrocinadores{
+    padding-top: 3rem;
+}
+.rodape{
+    margin-top: 20.5rem;
+}
+
+/*Fim rosapé*/
+.tituloTexto{
+    text-align: center;
+}
+.audio{
+    padding: 10px;
+    
+}
