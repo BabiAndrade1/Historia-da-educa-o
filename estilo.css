@@ -208,6 +208,12 @@ p{
 .legenda{
     font-size: 15px;
 }
+.fotoMenor{
+    width: 100%;
+    height: 25rem;
+    float: left;
+    padding-top: 20px;
+}
 /*fim melhores eventos */
 
 /*rodape*/
@@ -276,8 +282,7 @@ p{
 /*parte podcast*/
 .podcast{
     padding-top: 30px;
-    border-style:outset ;
-    border-color: purple;
+    
     margin-top: 10px;
 
     
@@ -298,3 +303,6 @@ p{
 }
 /*fim podecast*/
 
+.nav-link{
+    padding-left: 10px;
+}
