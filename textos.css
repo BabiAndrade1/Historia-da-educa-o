@@ -179,3 +179,13 @@ nav a:hover{
     height: 25rem;
     padding-top: 20px;
 }
+h3{
+    font-family: 'Corinthia', cursive;
+    font-family: 'Lobster Two', cursive;
+    color: #310082;
+}
+h4{
+    font-family: 'Corinthia', cursive;
+    font-family: 'Lobster Two', cursive;
+    color: black;
+}
